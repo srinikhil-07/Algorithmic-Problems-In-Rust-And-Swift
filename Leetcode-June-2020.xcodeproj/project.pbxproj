@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0B88E4EB248562C500DC0898 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B88E4EA248562C500DC0898 /* main.swift */; };
 		0B88E4F2248562FC00DC0898 /* invert_binary_tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B88E4F1248562FC00DC0898 /* invert_binary_tree.swift */; };
+		0BD5AA4424872E89005C6947 /* delete_node_list.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD5AA4324872E89005C6947 /* delete_node_list.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +28,7 @@
 		0B88E4E7248562C500DC0898 /* Leetcode-June-2020 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Leetcode-June-2020"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B88E4EA248562C500DC0898 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		0B88E4F1248562FC00DC0898 /* invert_binary_tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = invert_binary_tree.swift; sourceTree = "<group>"; };
+		0BD5AA4324872E89005C6947 /* delete_node_list.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = delete_node_list.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 			children = (
 				0B88E4EA248562C500DC0898 /* main.swift */,
 				0B88E4F1248562FC00DC0898 /* invert_binary_tree.swift */,
+				0BD5AA4324872E89005C6947 /* delete_node_list.swift */,
 			);
 			path = "Leetcode-June-2020";
 			sourceTree = "<group>";
@@ -124,6 +127,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0B88E4F2248562FC00DC0898 /* invert_binary_tree.swift in Sources */,
+				0BD5AA4424872E89005C6947 /* delete_node_list.swift in Sources */,
 				0B88E4EB248562C500DC0898 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
