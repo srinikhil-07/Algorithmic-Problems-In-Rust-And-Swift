@@ -5,7 +5,8 @@ func validIPAddress(_ IP: String) -> String {
         let ipComponents = IP.components(separatedBy: ".")
         var allowed = CharacterSet()
         allowed.formUnion(.decimalDigits)
-        let invalidComp = ipComponents.filter {
+        //diagnostics will fail for filter if $0.text is called inside closure
+        let invalidComp = ipComponents.filter { 
             let validInteger = $0.unicodeScalars.allSatisfy {
                 allowed.contains($0)
             }
