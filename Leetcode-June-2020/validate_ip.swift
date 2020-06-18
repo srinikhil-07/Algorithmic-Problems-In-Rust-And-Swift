@@ -1,5 +1,5 @@
 import Foundation
-
+/// - TODO: 1. Implement your own custom charcterset, 2. Read Standard lib code for characterset if available
 func validIPAddress(_ IP: String) -> String {
     if IP.components(separatedBy: ".").count == 4 {
         let ipComponents = IP.components(separatedBy: ".")
@@ -11,7 +11,7 @@ func validIPAddress(_ IP: String) -> String {
             }
             if let comp1 = UInt($0) {
                 if validInteger {
-                    return comp1 <= 255 && !(($0.count > 1) && ($0[$0.startIndex] == "0") )
+                    return comp1 <= 255 && !(($0.count > 1) && ($0[$0.startIndex] == "0")) //special case "-0"
                 }
             }
             return false
@@ -22,7 +22,7 @@ func validIPAddress(_ IP: String) -> String {
     }
     if IP.components(separatedBy: ":").count == 8 {
         let ipComponents = IP.components(separatedBy: ":")
-        let hexaSet = CharacterSet.init(charactersIn: "0123456789ABCDEFabcdef")
+        let hexaSet = CharacterSet.init(charactersIn: "0123456789ABCDEFabcdef") //hexadecimal with small letters as well
         let invalidComp = ipComponents.filter {
             let validHex = $0.unicodeScalars.allSatisfy {
                 hexaSet.contains($0)
