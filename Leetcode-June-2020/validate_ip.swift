@@ -38,16 +38,25 @@ func validIPAddress(_ IP: String) -> String {
 }
 
 func testValidIPAddress() {
-    if let test = UInt("-0") {
-        print(test)
+    if let _ = UInt("-0") {
+        //print(test)
         var allowed = CharacterSet()
         allowed.formUnion(.decimalDigits)
-        let string = "-0"
-        print(string.unicodeScalars.allSatisfy {
-            allowed.contains($0)
-        })
+        let string = "0200A"
+        let test = string.unicodeScalars.allSatisfy {
+            print("Value:" + String($0.value))
+            return allowed.contains($0)
+        }
+        print(test)
+        // print(string.unicodeScalars.allSatisfy {
+        //     allowed.contains($0)
+        // })
     }
     print(validIPAddress("02001:0db8:85a3:0:0:8A2E:0370:7334"))
 }
 //"20EE:FGb8:85a3:0:0:8A2E:0370:7334"
 testValidIPAddress()
+/// CharacterSet's contains() uses CoreFoundation API. 
+// 1. Custom set is sorted,
+// 2. Each char is binarysearched for in the set (for one case its &=0XFFFFF)
+// 3. If any false, stops at false

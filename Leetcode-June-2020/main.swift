@@ -13,3 +13,7 @@ print("Hello, World!")
 /// With Swift 5.3, inlinable main can be used but until then,
 /// respective problem's function will alone be called
 
+
+//var s: [Character] = ["h","e","l","l","o"]
+//reverseString(&s)
+//print(s)

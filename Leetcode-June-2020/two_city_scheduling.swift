@@ -25,3 +25,10 @@ func twoCitySchedCost(_ costs: [[Int]]) -> Int {
     }
     return minCostsOfA+minCostOfB
 }
+
+func testTwoCitySchedCost() {
+    let test = [[10,20],[30,200],[400,50],[30,20]]
+    print(twoCitySchedCost(test))
+}
+
+testTwoCitySchedCost()

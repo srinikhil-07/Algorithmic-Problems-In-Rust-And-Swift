@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B6092C32488B14800CCBD29 /* two_city_scheduling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6092C22488B14800CCBD29 /* two_city_scheduling.swift */; };
 		0B88E4EB248562C500DC0898 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B88E4EA248562C500DC0898 /* main.swift */; };
 		0B88E4F2248562FC00DC0898 /* invert_binary_tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B88E4F1248562FC00DC0898 /* invert_binary_tree.swift */; };
+		0BA5F5C824972B6900D5DE94 /* reverse_strinng.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA5F5C724972B6900D5DE94 /* reverse_strinng.swift */; };
 		0BD5AA4424872E89005C6947 /* delete_node_list.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD5AA4324872E89005C6947 /* delete_node_list.swift */; };
 /* End PBXBuildFile section */
 
@@ -25,9 +27,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0B6092C22488B14800CCBD29 /* two_city_scheduling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = two_city_scheduling.swift; sourceTree = "<group>"; };
 		0B88E4E7248562C500DC0898 /* Leetcode-June-2020 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Leetcode-June-2020"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B88E4EA248562C500DC0898 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		0B88E4F1248562FC00DC0898 /* invert_binary_tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = invert_binary_tree.swift; sourceTree = "<group>"; };
+		0BA5F5C724972B6900D5DE94 /* reverse_strinng.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reverse_strinng.swift; sourceTree = "<group>"; };
 		0BD5AA4324872E89005C6947 /* delete_node_list.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = delete_node_list.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -64,6 +68,8 @@
 				0B88E4EA248562C500DC0898 /* main.swift */,
 				0B88E4F1248562FC00DC0898 /* invert_binary_tree.swift */,
 				0BD5AA4324872E89005C6947 /* delete_node_list.swift */,
+				0B6092C22488B14800CCBD29 /* two_city_scheduling.swift */,
+				0BA5F5C724972B6900D5DE94 /* reverse_strinng.swift */,
 			);
 			path = "Leetcode-June-2020";
 			sourceTree = "<group>";
@@ -126,9 +132,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BA5F5C824972B6900D5DE94 /* reverse_strinng.swift in Sources */,
 				0B88E4F2248562FC00DC0898 /* invert_binary_tree.swift in Sources */,
 				0BD5AA4424872E89005C6947 /* delete_node_list.swift in Sources */,
 				0B88E4EB248562C500DC0898 /* main.swift in Sources */,
+				0B6092C32488B14800CCBD29 /* two_city_scheduling.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
