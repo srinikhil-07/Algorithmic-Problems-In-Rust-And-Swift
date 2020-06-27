@@ -21,6 +21,8 @@ public class Solution {
     func traverseAndSumNumbers(_ root: TreeNode?, _ number: Int) {
         // root == nil check wont work here check for e.g. [1,0]
         if root != nil { 
+            /// Swift bug?: 1. For ?? compiler accepts only if outer brackets are givenafter plus, 
+            /// 2. compiler is okay before + but result computed is wrong
             let val = (root?.val ?? 0)  + number * 10 
             if root?.right == nil && root?.left == nil {
                 sum += val
