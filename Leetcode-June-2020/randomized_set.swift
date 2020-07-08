@@ -1,5 +1,4 @@
 import Foundation
-
 //
 ///https://leetcode.com/explore/challenge/card/june-leetcoding-challenge/540/week-2-june-8th-june-14th/3358/
 /// - ToDo: 1. Learn Swift hash internals and implement one yourself mirroring the internals, 2. Learn and implement Swift
@@ -35,3 +34,14 @@ public class RandomizedSet {
     }
 }
 
+func testHash() {
+        let obj = RandomizedSet()
+        print(obj.insert(1))
+        print(obj.remove(2))
+        print(obj.insert(2))
+        print(obj.getRandom())
+        print(obj.remove(1))
+        print(obj.insert(2))
+        print(obj.getRandom())
+}
+testHash()

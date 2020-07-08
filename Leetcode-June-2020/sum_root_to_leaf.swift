@@ -39,6 +39,7 @@ public class Solution {
             return
         }
         print("Root: \(root?.val ?? 0)")
+        //?? precedence: https://forums.swift.org/t/nil-coalescing-operator-precedence/2954/8
         let val = number*10 + (root?.val ?? 0)
         if root?.left != nil { // to avoid nil duplication
             traverseAndSumNumbersNotWorking(root?.left, val)

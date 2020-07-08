@@ -8,12 +8,15 @@
 
 import Foundation
 
-print("Hello, World!")
+//print("Hello, World!")
 
 /// With Swift 5.3, inlinable main can be used but until then,
 /// respective problem's function will alone be called
 
+var string = "I am a String"
+//string = string.append("In Swift!")
 
-//var s: [Character] = ["h","e","l","l","o"]
-//reverseString(&s)
-//print(s)
+// struct S<T>: Codable {
+//    var s: T!
+// }
+

@@ -55,7 +55,7 @@ func testValidIPAddress() {
     print(validIPAddress("02001:0db8:85a3:0:0:8A2E:0370:7334"))
 }
 //"20EE:FGb8:85a3:0:0:8A2E:0370:7334"
-testValidIPAddress()
+//testValidIPAddress()
 /// CharacterSet's contains() uses CoreFoundation API. 
 // 1. Custom set is sorted,
 // 2. Each char is binarysearched for in the set (for one case its &=0XFFFFF)

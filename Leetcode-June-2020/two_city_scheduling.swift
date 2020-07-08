@@ -31,4 +31,4 @@ func testTwoCitySchedCost() {
     print(twoCitySchedCost(test))
 }
 
-testTwoCitySchedCost()
+//testTwoCitySchedCost()
