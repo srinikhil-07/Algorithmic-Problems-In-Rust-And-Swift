@@ -1,5 +1,5 @@
-# Swift-Leetcode-June-2020
-Swift solutions to Leetcode June 2020
+# Swift-Leetcode-Monthly
+Swift solutions to Leetcode monthly challenges
 
 I want to try Swift to solve algorithmic problems
 
