@@ -20,5 +20,5 @@ import Foundation
             }
         }
         return match == s.count
-    }
+}
     
