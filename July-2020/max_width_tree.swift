@@ -36,10 +36,10 @@ class Solution {
                       queue.append((node?.left,2*i+1))
                     }
                     if node?.right != nil {
-                      queue.append((node?.right,2*i+1))
+                      queue.append((node?.right,2*i+2))
                     }
                 }
-                maxWidth = max(maxWidth, lastElement.1 - head.1)
+                maxWidth = max(maxWidth, lastElement.1 - head.1 + 1)
             }
         }
         return maxWidth
