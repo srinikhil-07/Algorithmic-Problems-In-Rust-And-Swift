@@ -8,6 +8,7 @@ While solving problems in Swift if I come across issues/improvements in Swift co
 I have raised them [here](https://bugs.swift.org/)
 
 Bugs raised by me so far: 2
+
 I am using sourcekit-lsp in VSCode for Swift language support.
 
 
