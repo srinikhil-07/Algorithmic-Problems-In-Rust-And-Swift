@@ -6,7 +6,7 @@ Swift Standard Library.
 
 
 While solving problems in Swift if I come across issues/improvements in Swift compiler,
-I have reported them [here](https://bugs.swift.org/)
+I have reported them [here](https://bugs.swift.org/) and I am fixing them as well with support from Apple.
 
 Issues raised by me so far: 2
 
