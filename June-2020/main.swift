@@ -14,7 +14,7 @@ import Foundation
 /// respective problem's function will alone be called
 
 var string = "I am a String"
-//string = string.append("In Swift!")
+string = string.append("In Swift!")
 
 // struct S<T>: Codable {
 //    var s: T!
