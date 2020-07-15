@@ -99,5 +99,5 @@ extension Array {
 func testWidthOfBinaryTree() {
     let solution = Solution.init()
     print(solution.widthOfBinaryTree(TreeNode()))
-    var queue = Array<(TreeNode?, Int)>()
+    _ = Array<(TreeNode?, Int)>()
 }
