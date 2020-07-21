@@ -13,7 +13,8 @@ Issues raised by me so far: 2
 1. [SR-13100](https://bugs.swift.org/browse/SR-13100)
 2. [SR-13145](https://bugs.swift.org/browse/SR-13145)
 
-I am using sourcekit-lsp in VSCode for Swift language support.
+I am using sourcekitd in VSCode for Swift language support on macOS. 
+All algorithms used are tested on Linux as well.
 
 
 ## License 
