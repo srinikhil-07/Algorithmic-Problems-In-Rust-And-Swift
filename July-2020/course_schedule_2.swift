@@ -5,6 +5,7 @@ class Solution {
     var result = [Int]()
     var graph = Dictionary<Int,[Int]>()
     var possible = true
+    /// Solution not working: Needs analysis
     func findOrder(_ numCourses: Int, _ prerequisites: [[Int]]) -> [Int] {
         //diagnostic is right if no suceeding statements present
         visited = Array.init(repeating: false, count: numCourses)
