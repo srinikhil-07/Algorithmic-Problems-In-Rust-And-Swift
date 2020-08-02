@@ -13,9 +13,11 @@ import Foundation
 /// With Swift 5.3, inlinable main can be used but until then,
 /// respective problem's function will alone be called
 
-var string = "I am a String"
-string = string.append("In Swift!")
-
+// var string = "I am a String"
+// string = string.append("In Swift!")
+// var hash = Array.init(repeating: 0, count: 26)   
+// hash[UInt(1) - UInt(0)] = 1 
+var element = Int()
 //struct S<T>: Codable {
 //   var s: T!
 //}
