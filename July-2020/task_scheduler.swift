@@ -1,5 +1,6 @@
 import Foundation
 ///https://leetcode.com/explore/challenge/card/july-leetcoding-challenge/547/week-4-july-22nd-july-28th/3404/
+/// Hash-Set
 class Solution {
     func leastInterval(_ tasks: [Character], _ n: Int) -> Int {
         var hash = Array.init(repeating: 0, count: 26)

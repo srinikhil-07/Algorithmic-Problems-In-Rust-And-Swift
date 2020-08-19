@@ -1,6 +1,6 @@
 import Foundation
 // TODO: Learn much more efficient DP solution.
-// Paradigm: DP
+/// Dynamic-Programming
 class Solution {
     var dp = [[Int]]()
     var rows = Int()

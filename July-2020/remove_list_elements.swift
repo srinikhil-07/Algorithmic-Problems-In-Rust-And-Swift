@@ -1,6 +1,6 @@
 import Foundation
 //https://leetcode.com/explore/challenge/card/july-leetcoding-challenge/546/week-3-july-15th-july-21st/3396/
-
+/// Linked-List
 public class ListNode {
       public var val: Int
       public var next: ListNode?

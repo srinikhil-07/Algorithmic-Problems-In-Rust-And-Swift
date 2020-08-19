@@ -1,5 +1,6 @@
 import Foundation
 // Problem:https://leetcode.com/explore/challenge/card/july-leetcoding-challenge/545/week-2-july-8th-july-14th/3385/
+/// Linked-List, DFS
 public class Node {
     public var val: Int
     public var prev: Node?
@@ -12,7 +13,6 @@ public class Node {
         self.child  = nil
     }
 }
-
 
 class Solution {
     /// If we rotate the DS, we get a binary tree

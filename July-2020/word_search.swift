@@ -5,6 +5,7 @@ import Foundation
     /// 2. Check for validity for making a choice
     /// 3. Flag the choice before chossing it,
     /// 4. If the choice made doesn't work, de-flag it and return back 
+/// Back-Tracking
 class Solution {
     var game = [[Character]]()
     var find = String()

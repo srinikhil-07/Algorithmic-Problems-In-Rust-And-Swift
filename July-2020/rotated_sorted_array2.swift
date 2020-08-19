@@ -1,5 +1,6 @@
 import Foundation
 ///https://leetcode.com/explore/challenge/card/july-leetcoding-challenge/547/week-4-july-22nd-july-28th/3401/
+/// Binary-Search
 class Solution {
     /// Solution not working
     func findMin(_ nums: [Int]) -> Int {

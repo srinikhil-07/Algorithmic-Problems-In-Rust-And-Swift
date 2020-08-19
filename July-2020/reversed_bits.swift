@@ -1,5 +1,5 @@
 import Foundation
-
+/// Math
 class Solution {
     //unsigned -> 8 bit: 0 to 255
     // unsigned -> 32 bit: 0 to 2,147,483,648

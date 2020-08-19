@@ -1,6 +1,7 @@
 import Foundation
 ///https://leetcode.com/explore/challenge/card/august-leetcoding-challenge/549/week-1-august-1st-august-7th/3413/
 /// Hash is not efficient for prefix searching
+/// Trie
 class WordDictionary {
     /** Initialize your data structure here. */
     init() {

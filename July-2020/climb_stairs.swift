@@ -1,5 +1,6 @@
 import Foundation
 ///https://leetcode.com/explore/challenge/card/july-leetcoding-challenge/548/week-5-july-29th-july-31st/3407/
+/// Dynamic-Programming
 class Solution {
     /// Has different simple solutions, used bottom-up DP
     func climbStairs(_ n: Int) -> Int {

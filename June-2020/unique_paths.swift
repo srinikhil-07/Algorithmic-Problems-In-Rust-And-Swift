@@ -1,5 +1,5 @@
 import Foundation
-// Paradigm: DP
+// Paradigm: Dynamic-Programming
 func uniquePaths(_ m: Int, _ n: Int) -> Int {
     /// SR-13145: Auto completion of Array in sourcekit-LSP improvement suggested
     var dp = Array(repeating: Array(repeating: 1, count: n) , count: m)

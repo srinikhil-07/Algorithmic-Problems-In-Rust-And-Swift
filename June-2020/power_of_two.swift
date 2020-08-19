@@ -1,6 +1,7 @@
 import Foundation
 
 // - ToDo: Learn the bitwise solution as well
+/// Math, Bitwise
 func isPowerOfTwo(_ n: Int) -> Bool {
     var n = n
     if n == 0 {

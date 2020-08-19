@@ -1,5 +1,5 @@
 import Foundation
-/// Paradigm: DP
+/// Paradigm: Dynamic-Programming
 func numTrees(_ n: Int) -> Int {
     var dp = Array(repeating: 0, count: n+1)
     dp[0] = 1

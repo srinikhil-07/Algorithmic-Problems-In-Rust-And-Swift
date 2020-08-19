@@ -2,6 +2,7 @@ import Foundation
 ///https://leetcode.com/explore/challenge/card/july-leetcoding-challenge/547/week-4-july-22nd-july-28th/3400/
 ///Solution seems not optimized
 /// TODO: Checkif there s an optimized version of this solution
+/// Graph, DFS
 class Solution {
     var visited = [Bool]()
     var result = [[Int]]()

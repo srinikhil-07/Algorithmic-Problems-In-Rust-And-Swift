@@ -1,5 +1,5 @@
 import Foundation 
-
+/// Binary-Search
 class Solution {
     ///Classic binary search.
     /// Teaches Binary search paradigm 

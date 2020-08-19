@@ -1,5 +1,5 @@
 import Foundation
-
+/// Math
 class Solution {
     /// Range: -2^31 < n < 2^31
     /// Algorithm: Fast power -> (x^n)^n = x^2n

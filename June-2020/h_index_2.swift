@@ -1,5 +1,5 @@
 import Foundation
-
+/// Binary-Search
 func hIndex(_ citations: [Int]) -> Int {
     let n = citations.count
     var left = 0, right = n-1

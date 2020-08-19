@@ -1,5 +1,6 @@
 import Foundation
 ///https://leetcode.com/explore/challenge/card/july-leetcoding-challenge/547/week-4-july-22nd-july-28th/3399/
+/// Hash-Set
 class Solution {
     ///Since appear only twice, we can remove from hash the second time
     /// Solution is valid: beats 98%

@@ -2,6 +2,7 @@ import Foundation
 //
 ///https://leetcode.com/explore/challenge/card/june-leetcoding-challenge/540/week-2-june-8th-june-14th/3358/
 /// - ToDo: 1. Learn Swift hash internals and implement one yourself mirroring the internals, 2. Learn and implement Swift
+/// Hash-Set
 public class RandomizedSet {
     var numbers: Set<Int>
     /** Initialize your data structure here. */

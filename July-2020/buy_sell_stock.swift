@@ -1,5 +1,6 @@
 import Foundation
 ///https://leetcode.com/explore/featured/card/july-leetcoding-challenge/548/week-5-july-29th-july-31st/3405/
+/// Dynamic-Programming
 class Solution {
     /// 1. State diagram will help a lot,
     /// 2. Implicitly this problem suggests "rest" day can be taken even after buying 
