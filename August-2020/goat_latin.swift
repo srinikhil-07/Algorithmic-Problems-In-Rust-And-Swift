@@ -19,7 +19,7 @@ class Solution {
                 element.append(contentsOf: String(first))
                 element.append(contentsOf: "ma")
             }
-            for i in 0..<index {
+            for _ in 0..<index {
                 element.append("a")
             }
             result.append(contentsOf: element)
