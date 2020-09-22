@@ -1,5 +1,7 @@
 import Foundation
 ///https://leetcode.com/problems/implement-trie-prefix-tree/
+/// Trie
+/// Working implementation
 class Trie {
     let trie: Trie_Node
     /** Initialize your data structure here. */
@@ -41,7 +43,18 @@ class Trie {
         return node != nil
     }
 }
-
+/// Simplified implementation: nested hash, 
+/// ToDo: Can below Swift dictionary impl can be considered hash set?
+class Trie_Node {
+    var children = Dictionary<Character, Trie_Node>()
+    var word = false
+}
+extension String {
+    func getCharacter(at index: Int) -> Character {
+        return self[self.index(self.startIndex, offsetBy: index)]
+    }
+}
+/// TrieNode from scratch
 class TrieNode {
     var links =  [TrieNode?]()
     var keySize = 26
@@ -63,15 +76,5 @@ class TrieNode {
     }
     func setEnd() {
         isEnd = true
-    }
-}
-
-class Trie_Node {
-    var children = Dictionary<Character, Trie_Node>()
-    var word = false
-}
-extension String {
-    func getCharacter(at index: Int) -> Character {
-        return self[self.index(self.startIndex, offsetBy: index)]
     }
 }
