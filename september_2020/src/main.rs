@@ -5,4 +5,8 @@ fn main() {
     println!("{:?}", ans);
     let result = soution::Solution::word_pattern("abba".to_string(), "dog cat cat dog".to_string());
     println!("{:}", result);
+    println!(
+        "{:}",
+        soution::Solution::length_of_last_word("helllo world".to_string())
+    );
 }

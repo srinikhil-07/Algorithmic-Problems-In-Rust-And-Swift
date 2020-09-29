@@ -1,6 +1,6 @@
 import Foundation
 ///https://leetcode.com/explore/challenge/card/july-leetcoding-challenge/546/week-3-july-15th-july-21st/3397/
-    ///Backtracking paradigm: 
+    ///Back-tracking paradigm: 
     /// 1. Recursive so define base case: If its done
     /// 2. Check for validity for making a choice
     /// 3. Flag the choice before chossing it,
