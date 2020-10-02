@@ -1,5 +1,6 @@
 pub mod combination_sum_3;
 pub mod compare_version;
+pub mod first_missing_positive;
 pub mod house_robber;
 pub mod insert_interval;
 pub mod largest_time;
