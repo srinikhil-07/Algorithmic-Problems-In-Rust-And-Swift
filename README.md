@@ -1,8 +1,8 @@
-# Algorithmic Problems Solved In Swift
+# Algorithmic Problems Solved In Rust And Swift
 Swift solutions to algorithmic problems
 
-I want to try Swift to solve algorithmic problems. I felt this is a great way to dive into 
-Swift Standard Library.
+I want to try Rust and Swift to solve algorithmic problems. I felt this is a great way to dive into 
+Rust and Swift Standard Library.
 
 
 While solving problems in Swift if I come across issues/improvements in Swift compiler,
@@ -17,8 +17,8 @@ Issues raised by me so far: 5
 4. [SR-13313](https://bugs.swift.org/browse/SR-13313)
 5. [SR-13385](https://bugs.swift.org/browse/SR-13385)
 
-I am using sourcekitd in VSCode for Swift language support on macOS. 
-All algorithms used are tested on Linux as well.
+I am using sourcekitd for Swift and rust-analyzer for Rust in VSCode on macOS.
+All algorithms/problems used/solved are tested on Linux as well.
 
 
 ## License 
