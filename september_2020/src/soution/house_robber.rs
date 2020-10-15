@@ -9,10 +9,10 @@ impl crate::soution::Solution {
             return nums[0];
         }
         let mut dp: Vec<i32> = vec![];
-        dp[0] = nums[0];
-        dp[1] = std::cmp::max(nums[0], nums[1]);
+        dp.push(nums[0]);
+        dp.push(std::cmp::max(dp[0], nums[1]));
         for i in 2..nums.len() {
-            dp[i] = std::cmp::max(dp[i - 2] + nums[i], dp[i - 1]);
+            dp.push(std::cmp::max(dp[i - 2] + nums[i], dp[i - 1]));
         }
         return dp[nums.len() - 1];
     }

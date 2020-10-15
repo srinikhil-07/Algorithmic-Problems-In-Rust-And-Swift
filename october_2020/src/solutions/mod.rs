@@ -7,4 +7,5 @@ pub mod recent_calls;
 pub mod remove_duplicate_letters;
 pub mod serialize_deserialize;
 pub mod sort_list;
+pub mod house_robber_2;
 pub struct Solution {}

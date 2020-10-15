@@ -11,6 +11,11 @@ impl ListNode {
         ListNode { next: None, val }
     }
 }
-impl Solution {
-    pub fn sort_list(head: Option<Box<ListNode>>) -> Option<Box<ListNode>> {}
+impl crate::solutions::Solution {
+    pub fn sort_list(head: Option<Box<ListNode>>) -> Option<Box<ListNode>> {
+        // if let boxedhead = head {
+        //     let test = boxedhead;
+        // }
+        return head;
+    }
 }
