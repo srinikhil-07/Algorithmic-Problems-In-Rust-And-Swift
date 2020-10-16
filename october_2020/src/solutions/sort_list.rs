@@ -19,3 +19,6 @@ impl crate::solutions::Solution {
         return head;
     }
 }
+//1. how to un-wrap,
+// 2. recursive sort
+// 3. recursive merge
