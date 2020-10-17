@@ -9,4 +9,5 @@ pub mod serialize_deserialize;
 pub mod sort_list;
 pub mod house_robber_2;
 pub mod rotate_array;
+pub mod search_2d;
 pub struct Solution {}
