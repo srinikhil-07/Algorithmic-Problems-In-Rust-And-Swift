@@ -13,7 +13,7 @@ impl crate::solutions::Solution {
         let mut hash_map: HashMap<char, i32> = HashMap::new();
         let mut hash_of_hash: HashMap<i32, i32> = HashMap::new();
         hash_map.insert('A', 0);
-        hash_map.insert('C', 1);1
+        hash_map.insert('C', 1);
         hash_map.insert('G', 2);
         hash_map.insert('T', 3);
         let mut mask: i32 = 1<<20 -1; //this makes last 20 bits to 1 and other 12 to 0 in `mask` var
