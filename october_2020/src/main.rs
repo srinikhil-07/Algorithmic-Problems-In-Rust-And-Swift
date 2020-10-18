@@ -11,4 +11,5 @@ fn main() {
     let mut vec: Vec<i32> = [1,2,3,4,5,6,7].to_vec();
     solutions::Solution::rotate(&mut vec, 3);
     println!("{:?}",vec);
+    println!("Answer: {:?}", solutions::Solution::find_repeated_dna_sequences("AAAAACCCCCAAAAACCCCCCAAAAAGGGTTT".to_string()));
 }
