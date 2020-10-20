@@ -11,4 +11,6 @@ pub mod house_robber_2;
 pub mod rotate_array;
 pub mod search_2d;
 pub mod repeated_dna_seq;
+pub mod buy_sell_stock_4;
+pub mod min_domino_rotation;
 pub struct Solution {}

@@ -4,7 +4,6 @@ use std::collections::HashMap;
 /// ToDo: Fix bit masking error
 impl crate::solutions::Solution {
     #[allow(dead_code)]
-    
     pub fn find_repeated_dna_sequences(s: String) -> Vec<String> {
         let mut answer: Vec<String> = Vec::new();
         if s.len() <= 10 {
